@@ -5,12 +5,14 @@
 }
 
 body {
+    background-color: #113B3B;
+    font-family: sans-serif;
     
 }
-
+/*
 .background {
     width:100%;
-    min-height:100vh;
+    height:100px;
     background:linear-gradient(
         to right,
          pink 0%,
@@ -22,14 +24,16 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
+    
 
 }
+*/
 
 .navbar {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background-color: cornflowerblue;
+    background-color: black;
     color: white;
 }
 
@@ -120,5 +124,33 @@ display:block;
         .navbar-links.active {
             display: flex;
         }
+
+}
+
+.section {
+    border: 2px solid white;
+    background-color: bisque;
+    display:flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
+    margin:40px;
+    width:60%;
+    margin: 10rem auto 0 auto;
+}
+
+.section img {
+    height:250px;
+   
+    
+}
+
+.section h1 {
+    margin: 0;
+    color:greenyellow;
+}
+
+
+.section p {
+    color: grey;
 
 }
